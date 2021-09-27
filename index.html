@@ -8,12 +8,16 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/scroll.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/4-1-5.css"></head>
+
 
     <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
 
+    
     <title>KC</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
@@ -21,15 +25,26 @@
 <body>
 
     <div class="wrapper">
-        <div id="loading">
+
+        <div id="splash">
+            <div id="splash_logo">
+            <svg version="1.1" id="mask" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://
+            www.w3.org/1999/xlink" x="0px" y="0px" width="1856.5px" height="321.8px"
+            viewBox="0 0 1856.5 321.8" style="enable-background:new 0 0 1856.5 321.8;" xml:
+            space="preserve">.................. SVGのタグ...............</svg><!--このSVGタグの作り方は下記に記述-->
+            <!--/splash_logo--></div>
+            <!--/splash--></div>
+            <div id="container">
+            <p>ローディング後、この画面が見えます。</p>
+            <!--/container--></div>
+        <!-- <div id="loading">
             <div class="spinner"></div>
-        </div>
-
-
+        </div> -->
 
         <header>
             <div class="main-visual" id="main-visual">
 
+                <div class="top">
                 <img src="images/main2.png" alt="">
                 <div class="title">
                     <h1>Kobe College</h1>
@@ -39,6 +54,7 @@
                     <p class="subtitle2">卒業生が語る<br>
                         神戸女学院の魅力</p>
                 </div>
+            </div>
 
 
                 <div class="reason">
@@ -65,7 +81,7 @@
         <div class="content">
             <div class="worship" id="worship">
                 <h3>WORSHIP</h3>
-                <h4>礼拝</h4>
+                <h4>礼拝</hs4>
                 <h5>凛とした女の子に<br>おなりなさい</h5>
                 <div id="worship_wrapper">
                     <img src="images/worship.png" alt="">
@@ -251,9 +267,14 @@
 
     </div>
     
-    <!-- <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.4/vivus.min.js"></script>
+<script src="js/4-1-5.js"></script>
+</body>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="js/script.js" type="text/javascript"></script>
-    <!-- <script src="js/main.js" type="text/javascript"></script> -->
+    <script src="js/scroll.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 
 </body>
 

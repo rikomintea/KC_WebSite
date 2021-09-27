@@ -480,3 +480,12 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
+
+@media all and (max-width: 480px) {
+    html { 
+        font-size: 6x;
+      }
+}
+
+

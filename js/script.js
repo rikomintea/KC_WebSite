@@ -1,6 +1,6 @@
 $(function() {
     $(window).scroll(function() {
-      $(".worship").each(function() {
+      $(".worship h5").each(function() {
         var scroll = $(window).scrollTop();
         var blockPosition = $(this).offset().top;
         var windowHeihgt = $(window).height();
