@@ -1,0 +1,34 @@
+.worship {
+    opacity: 0.1;
+    transition: all 1.5s;
+  }
+  /* 画面に入った時の動き */
+.worship.blockIn {
+    opacity: 1;
+  }
+
+.worship h3 {
+    opacity: .1;
+    transition: all 2.5s;
+}
+.worship.blockIn {
+    opacity: 1;
+}
+
+.worship h4{
+    opacity: .1;
+    transition: all 3s;
+} 
+.worship h4{
+    opacity: .1; 
+}
+
+
+#worship_wrapper{
+    opacity: .1;
+    transition: all 6.5s;
+  }
+  /* 画面に入った時の動き */
+#worship_wrapper.blockIn {
+    opacity: 1;
+  }
