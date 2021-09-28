@@ -19,14 +19,16 @@ body {
     /* overflow-x: hidden; */
 }
 
+
 header {
     position: relative;
     width: 100%;
     background-size: cover;
     height: 2000px;
     padding-top: 340px;
+    background-image: url("/images/main2.png");
+    background-attachment: fixed;
 }
-
 .title {
     text-align: center;
     width: 60%;
@@ -52,77 +54,78 @@ h1 {
     font-family: serif;
 }
 
-.main-visual img {
+/* .main-visual img {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-}
+} */
 
 .reason {
-    width: 80%;
-    margin-top: 600px;
-    margin-left: 35%;
+    left: 1500px;
+    width: 400px;
+    margin-top: 500px;
+    margin-left: 60%;
+    padding-bottom: 50px;
+    background:rgb(255, 255, 255, 0.3);
+    border-radius: 2%;
 }
-
 h2 {
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
-
 .reason_title {
     text-align: center;
     font-size: 24px;
     line-height: 74px;
+    padding-top: 30px;
     margin-bottom: 40px;
 }
-
 .reason_text {
     text-align: center;
     font-size: 18px;
     line-height: 38px;
     margin: 20px;
 }
-
 .content {
     padding-left: 200px;
     padding-right: 200px;
 }
 
 /* 　コンテンツのタイトル */
-
 h3 {
     font-size: 7rem;
     color: rgb(112, 112, 112, 0.1);
 }
-
 h4 {
     font-size: 4rem;
 }
 
-/* 礼拝 */
 
+/* 礼拝 */
+.content{
+    padding-top: 350px;
+}
 #worship {
     position: relative;
     width: 100%;
-    height: 1100px;
+    height: 1000px;
 }
-
 .worship h3 {
     width: 100%;
     position: absolute;
     top: 0px;
     left: 45%;
 }
-
 .worship h4 {
     position: absolute;
     top: 70px;
     left: 50%;
 }
-
 .worship h5 {
     height: 1000px;
     font-size: 2rem;
@@ -132,22 +135,20 @@ h4 {
     line-height: 60px;
     letter-spacing: 20px;
     position: absolute;
-    top: 320px;
+    top: 350px;
     left: 84%;
 }
-
-
 #worship_wrapper {
     width: 100%;
     position: absolute;
     display: flex;
     top: 180px;
 }
-
 #worship_wrapper img {
     width: 480px;
-    height: 320px;
-    padding-top: 100px;
+    height: 350px;
+    margin-top: 100px;
+    box-shadow: -5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .worship_text {
@@ -155,21 +156,21 @@ h4 {
     padding-top: 30px;
     line-height: 2rem;
 }
-
 .worship_textbox {
     width: 400px;
     padding-left: 100px;
 }
 
-/* 校風 */
 
+
+
+
+/* 校風 */
 .schoolspirit {
     position: relative;
     width: 100%;
-    height: 1100px;
+    height: 1200px;
 }
-
-
 .schoolspirit h3 {
     font-size: 6.5rem;
     text-align: center;
@@ -177,14 +178,12 @@ h4 {
     position: absolute;
     left: 6%;
 }
-
 .schoolspirit h4 {
     position: absolute;
     font-size: 4rem;
     top: 130px;
     left: 20%;
 }
-
 .schoolspirit h5 {
     height: 1500px;
     font-size: 2rem;
@@ -193,15 +192,14 @@ h4 {
     position: absolute;
     top: 260px;
 }
-
 .schoolspirit_content img {
     position: absolute;
     width: 480px;
     height: 320px;
     top: 100px;
     left: 80%;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
-
 .schoolspirit_content {
     width: 550px;
     height: 1000px;
@@ -210,41 +208,38 @@ h4 {
     top: 270px;
     left: 15%;
 }
-
 .schoolspirit_text {
     font-size: 0.9rem;
     padding-top: 30px;
     line-height: 2rem;
 }
 
-/* 授業 */
 
+
+
+/* 授業 */
 .education {
     position: relative;
     width: 100%;
     height: 1500px;
 }
-
 .education h3 {
-    margin-top: 40px;
+    margin-top: 60px;
     position: absolute;
     width: 100%;
     left: 40%;
 }
-
 .education_title {
     position: absolute;
-    top: 110px;
+    top: 100px;
     left: 48%;
     text-align: center;
     line-height: 60px;
 }
-
 .education_title p {
     font-size: 2rem;
     font-weight: 700;
 }
-
 .education h5{
     height: 1500px;
     font-size: 2rem;
@@ -253,10 +248,9 @@ h4 {
     text-indent:-5rem;
     letter-spacing: 20px;
     position: absolute;
-    top: 400px;
+    top: 360px;
     left: 65%;
 }
-
 .education_subtitle p {
     height: 1500px;
     font-size: 2rem;
@@ -264,57 +258,52 @@ h4 {
     writing-mode: vertical-rl;
     letter-spacing: 20px;
     position: absolute;
-    top: 380px;
+    top: 180px;
     left: 65%;
 }
-
 .education img{
     position: absolute;
     width: 350px;
-    top: 470px;
+    top: 400px;
     left: 65%;
     z-index: -1;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
-
 .education_content{
     width: 750px;
 }
-
 .education_content h6{
     font-size: 2rem;
     padding-left: 20px;
     padding-bottom: 10px;
 }
-
 .education_text{
     font-size: 0.8rem;
     line-height: 1.7rem;
 }
-
 #education_content1 {
     position: absolute;
     top: 350px;
     left: 10%;
 }
-
 #education_content2 {
     position: absolute;
     top: 630px;
     left: -5%;
 }
-
 #education_content3 {
     position: absolute;
     top: 890px;
     left: 10%;
 }
 
-/* キャンパス */
 
+
+/* キャンパス */
 .campus {
     position: relative;
     width: 100%;
-    height: 2000px;
+    height: 1800px;
 }
 
 .campus h3 {
@@ -351,13 +340,14 @@ h4 {
     position: absolute;
     width: 480px;
     height: 320px;
-    top: 380px;
+    top: 300px;
     left: 5%;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .campus_textbox {
     position: absolute;
-    top: 290px;
+    top: 280px;
     left: 62%;
     width: 450px;
 }
@@ -368,8 +358,8 @@ h4 {
     line-height: 2rem;
 }
 
-/* キャンパス ミニ*/
 
+/* キャンパス ミニ*/
 .campus_contentbox {
     position: relative;
 }
@@ -396,34 +386,33 @@ h4 {
 
 .campus_content img{
     width: 300px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 #campus_content1 {
     position: absolute;
-    top: 900px;
+    top: 800px;
     left: -8%;
 }
 
 #campus_content2 {
     position: absolute;
-    top: 970px;
+    top: 870px;
     left: 27.5%;
 }
 
 #campus_content3 {
     position: absolute;
-    top: 1070px;
+    top: 970px;
     left: 63%;
 }
 
 section {
     width: 100%;
-    background-image: url(images/SearleChapel.png);
+    background-image: url("/images/SearleChapel.png");
     background-size: cover;
-    width: 100%;
-    height: 600px;
-    background-size: cover;
-    padding-top: 300px;
+    height: 700px;
+    padding-top: 400px;
 }
 
 section h1 {
@@ -462,13 +451,13 @@ footer {
     left: 75%;
 }
 
-nav {
+ul {
     position: absolute;
     top: 520px;
     left: 3%;
 }
 
-nav li {
+ul li {
     font-size: 1.3rem;
     list-style-type: none;
     float: left;
@@ -477,7 +466,7 @@ nav li {
 }
 
 a {
-    color: #fff;
+     color: #fff;
     text-decoration: none;
 }
 
