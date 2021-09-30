@@ -471,18 +471,17 @@ a {
 
 
 @media all and (max-width: 480px) {
-
-
     html {
         font-size: 7px;
         width: 100%;
+        overflow-x: hidden;
     }
     
     
     header {
         background-image: url("/images/kc\ water1.png");
         background-attachment: fixed;
-        background-size: contain;
+        background-size:center center;
         padding-top: 300px;
     }
     
@@ -490,9 +489,6 @@ a {
         width: 100%;
     }
     
-    .scrolldown1{
-        top: 10%;
-    }
     .reason {
 
 
