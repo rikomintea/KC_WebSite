@@ -33,6 +33,7 @@
 	color:#fff;
 }
 
+
 .gnavi li a::after {
     content: '';
     /*絶対配置で線の位置を決める*/

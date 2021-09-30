@@ -29,6 +29,7 @@ header {
     background-image: url("/images/main2.png");
     background-attachment: fixed;
 }
+
 .title {
     text-align: center;
     width: 60%;
@@ -39,8 +40,8 @@ h1 {
 }
 
 .subtitle1{
-        font-size: 1.7rem;
-        line-height: 2.1rem;
+    font-size: 1.7rem;
+    line-height: 2.1rem;
 }
 
 #and {
@@ -54,14 +55,6 @@ h1 {
     font-family: serif;
 }
 
-/* .main-visual img {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-} */
-
 .reason {
     left: 1500px;
     width: 400px;
@@ -71,6 +64,7 @@ h1 {
     background:rgb(255, 255, 255, 0.3);
     border-radius: 2%;
 }
+
 h2 {
     text-align: center;
     font-size: 45px;
@@ -78,6 +72,7 @@ h2 {
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
 .reason_title {
     text-align: center;
     font-size: 24px;
@@ -85,16 +80,20 @@ h2 {
     padding-top: 30px;
     margin-bottom: 40px;
 }
+
 .reason_text {
     text-align: center;
     font-size: 18px;
     line-height: 38px;
     margin: 20px;
 }
+
 .content {
     padding-left: 200px;
     padding-right: 200px;
 }
+
+
 
 /* 　コンテンツのタイトル */
 h3 {
@@ -391,19 +390,19 @@ h4 {
 
 #campus_content1 {
     position: absolute;
-    top: 800px;
+    top: 850px;
     left: -8%;
 }
 
 #campus_content2 {
     position: absolute;
-    top: 870px;
+    top: 920px;
     left: 27.5%;
 }
 
 #campus_content3 {
     position: absolute;
-    top: 970px;
+    top: 1020px;
     left: 63%;
 }
 
@@ -435,7 +434,7 @@ footer {
     position: relative;
     background-color: #0D315A;
     height: 600px;
-    color: #fff;
+    color:#fff;
 }
 
 .last_title {
@@ -472,9 +471,67 @@ a {
 
 
 @media all and (max-width: 480px) {
-    html { 
-        font-size: 6x;
-      }
+
+
+    html {
+        font-size: 7px;
+        width: 100%;
+    }
+    
+    
+    header {
+        background-image: url("/images/kc\ water1.png");
+        background-attachment: fixed;
+        background-size: contain;
+        padding-top: 300px;
+    }
+    
+    .title {
+        width: 100%;
+    }
+    
+    .scrolldown1{
+        top: 10%;
+    }
+    .reason {
+
+
+        left: 1500px;
+        width: 400px;
+        margin-top: 500px;
+        margin-left: 60%;
+        padding-bottom: 50px;
+        background:rgb(255, 255, 255, 0.3);
+        border-radius: 2%;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 45px;
+        line-height: 55px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .reason_title {
+        text-align: center;
+        font-size: 24px;
+        line-height: 74px;
+        padding-top: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .reason_text {
+        text-align: center;
+        font-size: 18px;
+        line-height: 38px;
+        margin: 20px;
+    }
+    
+    .content {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
 }
 
 

@@ -159,12 +159,12 @@ ScrollReveal().reveal('#campus_content1',{
     viewFactor: 0.7,
 });
 ScrollReveal().reveal('#campus_content2',{
-    delay:200,
+    delay:400,
     duration: 3000,
     viewFactor: 0.7,
 });
 ScrollReveal().reveal('#campus_content3',{
-    delay:200,
+    delay:600,
     duration: 3000, 
     viewFactor: 0.7,
 });
