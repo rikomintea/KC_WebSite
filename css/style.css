@@ -19,7 +19,6 @@ body {
     /* overflow-x: hidden; */
 }
 
-
 header {
     position: relative;
     width: 100%;
@@ -39,7 +38,7 @@ h1 {
     font-size: 5rem;
 }
 
-.subtitle1{
+.subtitle1 {
     font-size: 1.7rem;
     line-height: 2.1rem;
 }
@@ -48,7 +47,7 @@ h1 {
     font-size: 1.3rem;
 }
 
-.subtitle2{
+.subtitle2 {
     font-size: 1.5rem;
     font-weight: 900;
     margin-top: 30px;
@@ -57,25 +56,25 @@ h1 {
 
 .reason {
     left: 1500px;
-    width: 400px;
+    width: 500px;
     margin-top: 500px;
-    margin-left: 60%;
+    margin-left: 57%;
     padding-bottom: 50px;
-    background:rgb(255, 255, 255, 0.3);
+    background: rgb(255, 255, 255, 0.5);
     border-radius: 2%;
 }
 
 h2 {
     text-align: center;
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 2.8rem;
+    line-height: 60px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
 .reason_title {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.3rem;
     line-height: 74px;
     padding-top: 30px;
     margin-bottom: 40px;
@@ -83,9 +82,9 @@ h2 {
 
 .reason_text {
     text-align: center;
-    font-size: 18px;
+    font-size: 01rem;
     line-height: 38px;
-    margin: 20px;
+    margin: 40px;
 }
 
 .content {
@@ -93,56 +92,62 @@ h2 {
     padding-right: 200px;
 }
 
-
-
 /* 　コンテンツのタイトル */
+
 h3 {
     font-size: 7rem;
     color: rgb(112, 112, 112, 0.1);
 }
+
 h4 {
     font-size: 4rem;
 }
 
-
 /* 礼拝 */
-.content{
+
+.content {
     padding-top: 350px;
 }
+
 #worship {
     position: relative;
     width: 100%;
     height: 1000px;
 }
+
 .worship h3 {
     width: 100%;
     position: absolute;
     top: 0px;
     left: 45%;
 }
+
 .worship h4 {
     position: absolute;
     top: 70px;
     left: 50%;
 }
+
 .worship h5 {
     height: 1000px;
     font-size: 2rem;
     font-weight: 600;
     writing-mode: vertical-rl;
-    text-indent:-7.5em;
+    text-indent: -7.5em;
     line-height: 60px;
     letter-spacing: 20px;
     position: absolute;
     top: 350px;
     left: 84%;
 }
+
 #worship_wrapper {
     width: 100%;
     position: absolute;
     display: flex;
     top: 180px;
 }
+
 #worship_wrapper img {
     width: 480px;
     height: 350px;
@@ -155,21 +160,20 @@ h4 {
     padding-top: 30px;
     line-height: 2rem;
 }
+
 .worship_textbox {
     width: 400px;
     padding-left: 100px;
 }
 
-
-
-
-
 /* 校風 */
+
 .schoolspirit {
     position: relative;
     width: 100%;
     height: 1200px;
 }
+
 .schoolspirit h3 {
     font-size: 6.5rem;
     text-align: center;
@@ -177,12 +181,14 @@ h4 {
     position: absolute;
     left: 6%;
 }
+
 .schoolspirit h4 {
     position: absolute;
     font-size: 4rem;
     top: 130px;
     left: 20%;
 }
+
 .schoolspirit h5 {
     height: 1500px;
     font-size: 2rem;
@@ -191,6 +197,7 @@ h4 {
     position: absolute;
     top: 260px;
 }
+
 .schoolspirit_content img {
     position: absolute;
     width: 480px;
@@ -199,6 +206,7 @@ h4 {
     left: 80%;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
+
 .schoolspirit_content {
     width: 550px;
     height: 1000px;
@@ -207,27 +215,28 @@ h4 {
     top: 270px;
     left: 15%;
 }
+
 .schoolspirit_text {
     font-size: 0.9rem;
     padding-top: 30px;
     line-height: 2rem;
 }
 
-
-
-
 /* 授業 */
+
 .education {
     position: relative;
     width: 100%;
     height: 1500px;
 }
+
 .education h3 {
     margin-top: 60px;
     position: absolute;
     width: 100%;
     left: 40%;
 }
+
 .education_title {
     position: absolute;
     top: 100px;
@@ -235,32 +244,25 @@ h4 {
     text-align: center;
     line-height: 60px;
 }
+
 .education_title p {
     font-size: 2rem;
     font-weight: 700;
 }
-.education h5{
+
+.education h5 {
     height: 1500px;
     font-size: 2rem;
     font-weight: 600;
     writing-mode: vertical-rl;
-    text-indent:-5rem;
+    text-indent: -5rem;
     letter-spacing: 20px;
     position: absolute;
     top: 360px;
     left: 65%;
 }
-.education_subtitle p {
-    height: 1500px;
-    font-size: 2rem;
-    font-weight: 600;
-    writing-mode: vertical-rl;
-    letter-spacing: 20px;
-    position: absolute;
-    top: 180px;
-    left: 65%;
-}
-.education img{
+
+.education img {
     position: absolute;
     width: 350px;
     top: 400px;
@@ -268,37 +270,42 @@ h4 {
     z-index: -1;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
-.education_content{
+
+.education_content {
     width: 750px;
 }
-.education_content h6{
+
+.education_content h6 {
     font-size: 2rem;
     padding-left: 20px;
     padding-bottom: 10px;
 }
-.education_text{
+
+.education_text {
     font-size: 0.8rem;
     line-height: 1.7rem;
 }
+
 #education_content1 {
     position: absolute;
     top: 350px;
     left: 10%;
 }
+
 #education_content2 {
     position: absolute;
     top: 630px;
     left: -5%;
 }
+
 #education_content3 {
     position: absolute;
     top: 890px;
     left: 10%;
 }
 
-
-
 /* キャンパス */
+
 .campus {
     position: relative;
     width: 100%;
@@ -357,8 +364,8 @@ h4 {
     line-height: 2rem;
 }
 
-
 /* キャンパス ミニ*/
+
 .campus_contentbox {
     position: relative;
 }
@@ -383,7 +390,7 @@ h4 {
     line-height: 2rem;
 }
 
-.campus_content img{
+.campus_content img {
     width: 300px;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
@@ -434,7 +441,7 @@ footer {
     position: relative;
     background-color: #0D315A;
     height: 600px;
-    color:#fff;
+    color: #fff;
 }
 
 .last_title {
@@ -465,69 +472,357 @@ ul li {
 }
 
 a {
-     color: #fff;
+    color: #fff;
     text-decoration: none;
 }
-
 
 @media all and (max-width: 480px) {
     html {
         font-size: 7px;
-        width: 100%;
-        overflow-x: hidden;
     }
-    
-    
     header {
         background-image: url("/images/kc\ water1.png");
-        background-attachment: fixed;
-        background-size:center center;
+        background-repeat: no-repeat;
+        background-size: contain;
         padding-top: 300px;
     }
-    
     .title {
         width: 100%;
     }
-    
-    .reason {
-
-
-        left: 1500px;
-        width: 400px;
-        margin-top: 500px;
-        margin-left: 60%;
-        padding-bottom: 50px;
-        background:rgb(255, 255, 255, 0.3);
-        border-radius: 2%;
-    }
-    
     h2 {
         text-align: center;
-        font-size: 45px;
-        line-height: 55px;
+        font-size: 3rem;
+        line-height: 4.3rem;
         margin-top: 50px;
         margin-bottom: 30px;
     }
-    
     .reason_title {
         text-align: center;
-        font-size: 24px;
-        line-height: 74px;
-        padding-top: 30px;
-        margin-bottom: 40px;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 50px;
     }
-    
     .reason_text {
         text-align: center;
-        font-size: 18px;
-        line-height: 38px;
-        margin: 20px;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin-bottom: 30px;
+    }
+    .reason_textbox {
+        padding-bottom: 30px;
+    }
+    .reason {
+        margin-left: initial;
+        left: 10%;
+        text-align: center;
+        left: initial;
+        width: 100%;
+        margin-top: 500px;
+        padding-bottom: initial;
+        border-radius: initial;
+    }
+    .content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* 礼拝 */
+    .content {
+        padding-top: 150px;
+    }
+    #worship {
+        position: relative;
+        width: 100%;
+        height: 640px;
+    }
+    .worship h3 {
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 5%;
+    }
+    .worship h4 {
+        position: absolute;
+        top: 30px;
+        left: 15%;
+    }
+    .worship h5 {
+        height: 1000px;
+        font-size: 2rem;
+        font-weight: 600;
+        text-indent: -7.5em;
+        line-height: 3.5rem;
+        letter-spacing: 1.6rem;
+        position: absolute;
+        top: 150px;
+        left: 80%;
+    }
+    #worship_wrapper {
+        position: absolute;
+        display: block;
+        top: 110px;
+        margin-left: 30px;
+    }
+    #worship_wrapper img {
+        width: 220px;
+        height: 146px;
+        margin-top: 0px;
+        box-shadow: -2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+    }
+    .worship_text {
+        font-size: 0.9rem;
+        padding-top: 20px;
+        line-height: 2rem;
+    }
+    .worship_textbox {
+        padding-left: 0px;
+        margin-top: 10px;
+        text-align: center;
+        width: 85%;
+    }
+    /* 校風 */
+    .schoolspirit {
+        position: relative;
+        width: 100%;
+        height: 700px;
+    }
+    .schoolspirit h3 {
+        font-size: 6.5rem;
+        text-align: right;
+        line-height: 7rem;
+        position: absolute;
+        left: 36%;
+    }
+    .schoolspirit h4 {
+        position: absolute;
+        font-size: 4rem;
+        top: 38px;
+        left: 50%;
+    }
+    .schoolspirit h5 {
+        font-size: 2rem;
+        letter-spacing: 1.6rem;
+        position: absolute;
+        top: 80px;
+        left: 10%;
+    }
+    .schoolspirit_content img {
+        width: 220px;
+        height: 146px;
+        position: absolute;
+        top: 30px;
+        left: 10%;
+        box-shadow: -2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+    }
+    .schoolspirit_content {
+        width: 550px;
+        height: 1000px;
+        font-size: 1rem;
+        position: absolute;
+        top: 100px;
+        left: 5%;
+    }
+    .schoolspirit_textbox {
+        position: absolute;
+        top: 200px;
+        left: 18px;
+        text-align: center;
+    }
+    .schoolspirit_text {
+        font-size: 0.9rem;
+        padding-top: 30px;
+        line-height: 2rem;
+    }
+    /* 授業 */
+    .education {
+        position: relative;
+        width: 100%;
+        height: 640px;
+    }
+    .education h3 {
+        margin-top: 0px;
+        position: absolute;
+        left: 0%;
+    }
+    .education_title {
+        position: absolute;
+        top: 20px;
+        left: 10%;
+        text-align: center;
+        line-height: 30px;
+    }
+    .education_title p {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .education h5 {
+        height: 1800px;
+        font-size: 2rem;
+        font-weight: 600;
+        writing-mode: vertical-rl;
+        text-indent: -5rem;
+        letter-spacing: 1.6rem;
+        position: absolute;
+        top: 130px;
+        left: 50%;
+    }
+    .education img {
+        position: absolute;
+        width: 130px;
+        top: 100px;
+        left: 55%;
+        z-index: -1;
+        box-shadow: -2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+    }
+    .education_content {
+        width: 300px;
+    }
+    .education_text {
+        font-size: 5px;
+        line-height: 1.7rem;
+    }
+    #education_content1 {
+        position: absolute;
+        top: 50px;
+        left: 5%;
+    }
+    #education_content2 {
+        position: absolute;
+        top: 150px;
+        left: 5%;
+    }
+    #education_content3 {
+        font-style: 5px;
+        position: absolute;
+        top: 300px;
+        left: 5%;
+    }
+    /* キャンパス */
+    .campus {
+        position: relative;
+        height: 1300px;
+    }
+    .campus h3 {
+        position: absolute;
+        width: 100%;
+        left: 15%;
+        z-index: -1;
+    }
+    .campus h4 {
+        width: 300px;
+        position: absolute;
+        top: 30px;
+        left: 10%;
+    }
+    .campus h5 {
+        width: 300px;
+        position: absolute;
+        top: 30px;
+        left: 5%;
+    }
+    .campus_subtitle {
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        top: 40px;
+        left: 6%;
+    }
+    .campus_subtitle p {
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        left: 6%;
+    }
+    .campus_img {
+        width: 220px;
+        height: 146px;
+        position: absolute;
+        top: 160px;
+        left: 5%;
+        box-shadow: -2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+    }
+    .campus_textbox {
+        text-align: center;
+        position: absolute;
+        top: 320px;
+        left: 5%;
+        width: 300px;
+    }
+    .campus_text {
+        font-size: 0.9rem;
+        padding-top: 30px;
+        line-height: 2rem;
+    }
+    /* キャンパス ミニ*/
+    .campus_contentbox {
+        position: relative;
+    }
+    .campus_content {
+        width: 180px;
+        text-align: center;
+    }
+    .campus_content p {
+        font-size: 0.5rem;
+        padding-top: 30px;
+        line-height: 1.3rem;
+    }
+    .campus_content img {
+        width: 100px;
+        box-shadow: -2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+    }
+    #campus_content1 {
+        position: absolute;
+        top: 650px;
+        left: 0%;
+    }
+    #campus_content2 {
+        position: absolute;
+        top: 800px;
+        left: 53%;
+    }
+    #campus_content3 {
+        position: absolute;
+        top: 950px;
+        left: 0%;
+    }
+
+
+    .selection {
+        height: 500px;
+        background-size: contain;
+    }
+    footer {
+        width: 100%;
+        height: 300px;
+    }
+    .last_title {
+        width: 100%;
+        height: 100px;
+        padding: initial;
+    }
+    .introduce p {
+        font-style: px;
+        text-align: center;
+        position: absolute;
+        top: 150px;
+        left: 25%;
+    }
+    ul {
+        position: absolute;
+        top: 100px;
+        left: 3%;
     }
     
-    .content {
-        padding-left: 200px;
-        padding-right: 200px;
+    ul li {
+        font-size: 1.0rem;
+        list-style-type: none;
+        float: left;
+        margin-top: 2px;
+        padding-left: 30px;
+    }
+    
+    a {
+        color: #fff;
+        text-decoration: none;
     }
 }
-
-
